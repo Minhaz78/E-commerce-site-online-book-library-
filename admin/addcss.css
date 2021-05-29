@@ -1,0 +1,119 @@
+body{
+	padding:0;
+	margin:0;
+	font-family:sans-serif;
+	 background-image: url('images/wc.jpg');
+	background-size:cover;
+	background-position:center;
+	background-color:gray;
+}
+	
+.Sign{
+	width:400px;
+	box-shadow: 0 0 30px 0;
+	margin:7% auto 0;
+	text-align:center;
+	color:white;
+}3
+.Sign h1{
+	color:white;
+	margin-bottom:30px;
+}
+.input{
+	border-radius:20px;
+	padding:10px;
+	margin:10px 0;
+	width:80%;
+	border:1px solid #5DADE2 ;
+	outline:none;
+}
+button{
+	color:white ;
+	width:80%;
+	padding:10px;
+	border-radius:20px;
+	font-size:15px;
+	margin:10px 0;
+	border:none;
+	outline:none;
+	cursor:pointer;
+}
+.male{
+	color:black;
+}
+.btn{
+	background-color:#5DADE2  ;
+}
+a{
+	text-decoration:none;
+	color:#5DADE2 ;
+}
+hr{
+	margin-top:20px;
+	width:80%;
+}
+.or{
+	background:white;
+	width:30px;
+	margin:-19px auto 10px;
+	color:black;
+}
+img{
+	width:70px;
+	margin-top:-40px;
+}
+.last{
+	color:white;
+	padding-bottom:5px;
+}
+.wr{
+	color:white;
+}
+.topnav {
+  overflow: hidden;
+  background-color: green;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: tomato;
+  color: black;
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+#student {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#student td, #student th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#student tr:nth-child(even){background-color: #f2f2f2;}
+
+#student tr:hover {background-color: #ddd;}
+
+#student th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
